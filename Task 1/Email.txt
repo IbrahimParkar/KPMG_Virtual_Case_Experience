@@ -1,0 +1,42 @@
+Dear Sprocket Central Pty Ltd,
+
+I have reviewed the datasets provide and identified several data quality issues. Here are the key concerns and recommended actions:
+
+Customer Demographic Dataset:
+1. Unusual date of birth (DOB) entry: 1843-12-21.
+2. Redundant and irregular values in the "default" column; remove them for data consistency.
+3. Inconsistent gender values (abbreviations, spelling errors), and "Unidentified" category abbreviated as "U."
+4. Empty cells in the "DOB" and "tenure" columns affecting calculations and analysis.
+5. 506 empty cells in the "Job title" column, limiting its effectiveness.
+6. 125 empty cells in the "Last name" column, hindering proper analysis.
+
+New Customer List Dataset:
+1. Inconsistent state name abbreviations (e.g., "New South Wales" as "NSW").
+2. "Unidentified" category in the "gender" column abbreviated as "U."
+3. 17 empty cells in the "DOB" column, affecting birth date analysis.
+4. 106 empty cells in the "job title" column, limiting its usefulness.
+5. Numbers stored as text in "property_valuation" and "postcode" columns, causing formatting issues.
+6. Five columns without headings, leading to confusion.
+
+Transactions Dataset:
+1. 360 blank cells in the "online order" column, impacting online order analysis.
+2. 197 empty cells in various columns, affecting analysis involving those attributes.
+
+Customer Address Dataset:
+1. Inconsistent state name abbreviations (e.g., "New South Wales" as "NSW").
+
+To mitigate these issues:
+1. Validate data for accuracy and completeness.
+2. Standardize values (e.g., gender, state abbreviations) and correct errors.
+3. Fill in missing values through investigation or data enrichment.
+4. Properly format numerical values stored as text.
+5. Add column headings for clarity.
+6. Remove irregular entries in the "default" column, ensuring clear default status representation.
+
+Attached is a data quality framework as a guideline for assessing data quality.
+If you have any questions, please contact me. Thank you for your cooperation, and I look forward to enhancing data quality for our company's growth.
+
+Kind regards,
+Ibrahim Parkar
+Data Analyst
+KPMG's Lighthouse & Innovation Team

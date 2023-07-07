@@ -1,0 +1,25 @@
+Customer Demographics
+1. a row where the customer DOB was 1843-12-21.
+2. the column default had redundant values
+3. Gender column had problems like Male and female given in short form 
+like M and F. the column also had spelling error when it came to females it was spelled femal also we had a category unidentified which was  abbrivated into U 
+4. DOB and tenure columns had 87 empty cells
+5. Job title coulmn had 506 empty cells
+6. Last name column had 125 empty cells
+7. No and yes abbrivated as N and y in the deceased indicator column
+
+New Customer list 
+1. New South Wales abbrivated as NSW, Queensland abbrivated as QLD, Victoria abbrivated as VIC in state column
+2. category unidentified which was abbrivated into U in gender column
+3. DOB column had 17 empty cells
+4. job title column had 106 empty cells
+5. property_valuation and postcode column had number stored in text format as it was preceded by an apostrophe
+6. 5 columns had no columns headings
+7. No abbrivated as N in the deceased indicator column
+
+Transactions
+1. online order column had 360 blank cells
+2. brand , product_line, product_class, product_size, standard_cost and product_first_sold_date columns had 197 empty cells
+
+Customer address
+1. New South Wales abbrivated as NSW, Queensland abbrivated as QLD, Victoria abbrivated as VIC in state column
